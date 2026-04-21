@@ -7,11 +7,10 @@
 [![LSTM](https://img.shields.io/badge/LSTM-2%20Stacked%20Layers-9B59B6?style=for-the-badge)]()
 [![Accuracy](https://img.shields.io/badge/Accuracy->90%25-brightgreen?style=for-the-badge)]()
 [![ngrok](https://img.shields.io/badge/Deployed-ngrok-1F8ACB?style=for-the-badge)]()
-[![License](https://img.shields.io/badge/License-MIT-1abc9c?style=for-the-badge)](../LICENSE.md)
+[![License](https://img.shields.io/badge/License-MIT-1abc9c?style=for-the-badge)]()
 
-> Classifies **6 human activities** from **2D pose time series** (OpenPose keypoints) using a **2-layer stacked LSTM RNN** built in TensorFlow 1.x — achieving **>90% accuracy** in ~7 minutes of training. Deployed via ngrok with a Flask web app and `sample_video.mp4` demo.
+> Classifies **6 human activities** from **2D pose time series** (OpenPose keypoints) using a **2-layer stacked LSTM RNN** built in TensorFlow 1.x — achieving **>90% accuracy** in ~7 minutes of training. 
 
-[🔙 Back to Main Repository](https://github.com/shsarv/Machine-Learning-Projects)
 
 </div>
 
@@ -220,8 +219,8 @@ Human Activity Detection/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/shsarv/Machine-Learning-Projects.git
-cd "Machine-Learning-Projects/Human Activity Detection"
+git clone https://github.com/nidafaria/ActiVision.git
+cd ActiVision
 ```
 
 ### 2. Set up environment
@@ -283,18 +282,12 @@ Follow the ngrok setup cells to expose the Flask app publicly
 
 ## 📚 References
 
-- Guillaume Chevalier (2016). *LSTMs for Human Activity Recognition.* [github.com/guillaume-chevalier](https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition) — MIT License
+- Guillaume Chevalier (2016). *LSTMs for Human Activity Recognition.* — MIT License
 - [Berkeley MHAD Dataset](http://tele-immersion.citris-uc.org/berkeley_mhad)
-- [OpenPose — CMU Perceptual Computing Lab](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+- OpenPose — CMU Perceptual Computing Lab
 - Goodfellow et al. *"It has been observed in practice that when using a larger batch there is a significant degradation in the quality of the model..."* — basis for small batch strategy
 - [Andrej Karpathy — The Unreasonable Effectiveness of RNNs](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) — referenced for many-to-one classifier design
 
 ---
 
-<div align="center">
 
-Part of the [Machine Learning Projects](https://github.com/shsarv/Machine-Learning-Projects) collection by [Sarvesh Kumar Sharma](https://github.com/shsarv)
-
-⭐ Star the main repo if this helped you!
-
-</div>
